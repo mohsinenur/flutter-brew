@@ -48,7 +48,10 @@ class MyApp extends StatelessWidget {
                 horizontal: 25.0,
               ),
               child: ListTile(
-                leading: Icon(Icons.phone),
+                leading: Icon(
+                  Icons.phone,
+                  color: Colors.teal,
+                ),
                 title: Text(
                   '+880 1234567890',
                   style: TextStyle(
